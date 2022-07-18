@@ -3,7 +3,28 @@
 /* common styles or utilities*/
 body {
   font-family: "Poppins", sans-serif;
-  background-color: #f3f1ff;
+}
+header {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90px;
+  background-color: #562eff;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+nav a {
+  text-decoration: none;
+  color: white;
+  font-size: 15px;
+  margin-right: 20px;
+}
+.nav {
+  width: 870px;
 }
 .container {
   background-color: white;
@@ -19,6 +40,7 @@ main {
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-color: #f3f1ff;
 }
 .section-title {
   color: #563eff;
